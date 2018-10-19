@@ -9,10 +9,13 @@ def turn_count(board)
 end
 
 def current_player(board)
+  #Using trad if/else stmt:
   # if turn_count(board) % 2 == 0 
   #   "X"
   # else
   #   "O"
   # end
-  turn_count(board) % 2 == 0 ? "X" : "O"
+  
+  #Using Ternary Operator:
+  turn_count(board).even? ? "X" : "O"
 end
