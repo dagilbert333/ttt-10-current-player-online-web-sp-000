@@ -16,6 +16,6 @@ def current_player(board)
   #   "O"
   # end
   
-  #Using Ternary Operator:
+  #Using Ternary Operator and .even?:
   turn_count(board).even? ? "X" : "O"
 end
