@@ -8,6 +8,6 @@ def turn_count(board)
   return spot
 end
 
-def current_player
+def current_player(board)
   
 end
